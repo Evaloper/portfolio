@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaBehance } from "react-icons/fa";
+import { HiMenuAlt2 } from "react-icons/hi";
 import "./index.scss"
 
 const Header = () => {
@@ -32,7 +33,8 @@ const Header = () => {
                 </div>
                 <div>
                     <div onClick={handleNavState} class="hamburger">
-                        <img src="/src/assets/hamburger-svgrepo-com.svg" alt="hamburger" />
+                        {/* <img src="/src/assets/hamburger-svgrepo-com.svg" alt="hamburger" /> */}
+                        <HiMenuAlt2 />
                     </div>
                     {isNavOpen && (
                         <div id="myNav" className="overlay">
