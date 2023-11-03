@@ -1,4 +1,4 @@
-.header-div {
+.desktop-view {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +13,10 @@
 
   @media screen and (max-width: 768px) {
     padding: 25px 30px;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: none;
   }
 }
 
@@ -105,4 +109,72 @@
 
 .icons {
   color: #fff;
+}
+
+.mobile-view {
+  display: none;
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+  }
+}
+
+.hamburger img {
+  width: 30px;
+}
+
+.overlay {
+  @media screen and (max-width: 600px) {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: #212328;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+
+.overlay-content {
+  @media screen and (max-width: 600px) {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+  }
+}
+
+.overlay a {
+  @media screen and (max-width: 600px) {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 32px;
+    display: block;
+    transition: 0.3s;
+    color: grey;
+  }
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  @media screen and (max-width: 600px) {
+    color: #f1f1f1;
+  }
+}
+
+.overlay .closebtn {
+  @media screen and (max-width: 600px) {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 48px;
+  }
 }
