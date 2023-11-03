@@ -64,6 +64,11 @@
     font-size: 16px;
     line-height: 35px;
   }
+
+  @media screen and (max-width: 330px) {
+    font-size: 14px;
+    line-height: 30px;
+  }
 }
 
 .para3 {
