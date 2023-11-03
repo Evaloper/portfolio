@@ -6,11 +6,11 @@ const ShowCase = () => {
     return (
         <div className='showcase-div'>
             <div className='showcase-para-div'>
-                {/* <p className='showcase-para'>&lt;Oghenefejiro /&gt;</p> */}
+                <p className='showcase-para'>&lt;Oghenefejiro /&gt;</p>
                 <div className='showcase-para2'>
-                    {/* <p className='para2'>Hey there, fellow internet adventurer!</p> */}
+                    <p className='para2'>Hey there, fellow internet adventurer!</p>
                     <div className="container">
-                        <p className='para3'>Welcome to my digital portfolio</p>
+                        <h3 className='para3'>Welcome to my digital portfolio</h3>
                     </div>
                     <p className='para4'>
                         With an eye for design and a passion for coding, I craft the visual and
