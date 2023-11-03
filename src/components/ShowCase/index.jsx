@@ -18,7 +18,10 @@ const ShowCase = () => {
                         Whether you're a business looking to enhance your online presence or a fellow developer
                         seeking collaboration, you've come to the right place.
                     </p>
-                    <button className='btn'>View Resume</button>
+                    <div className="btn-div">
+                        <button className='btn'>View Resume</button>
+                        <button className='btn'>View Portfolio</button>
+                    </div>
                 </div>
             </div>
         </div>

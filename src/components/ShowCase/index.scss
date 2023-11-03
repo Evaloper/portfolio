@@ -143,9 +143,18 @@
   display: inline-block;
 }
 
-.btn {
+.btn-div {
   display: none;
+  margin: auto;
 
+  @media screen and (max-width: 600px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.btn {
   @media screen and (max-width: 600px) {
     display: block;
     padding: 8px 15px;
@@ -153,7 +162,9 @@
     border: 1px solid #ffffff;
     color: #f6f6f6;
     cursor: pointer;
-    margin: auto;
     font-size: 16px;
   }
+}
+.btn:hover {
+  color: orange;
 }
