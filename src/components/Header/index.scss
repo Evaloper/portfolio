@@ -20,6 +20,10 @@
   font-size: 28px;
   font-weight: 500;
   color: #66d9ed;
+
+  @media screen and (max-width: 600px) {
+    font-size: 18px;
+  }
 }
 
 .logo-div a {
@@ -34,6 +38,10 @@
   align-items: center;
   width: 30%;
   margin: auto;
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .header-div nav a {
