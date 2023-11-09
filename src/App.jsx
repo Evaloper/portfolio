@@ -1,12 +1,14 @@
+import AboutMe from './components/AboutMe'
 import Header from './components/Header'
-import ShowCase from './components/ShowCase'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
     <>
       <Header />
-      <ShowCase />
+      <Hero />
+      <AboutMe />
     </>
   )
 }

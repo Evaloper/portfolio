@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Header'
 import "./index.scss"
 
-const ShowCase = () => {
+const Hero = () => {
     return (
         <div className='showcase-div'>
             <div className='showcase-para-div'>
@@ -19,8 +19,8 @@ const ShowCase = () => {
                         seeking collaboration, you've come to the right place.
                     </p>
                     <div className="btn-div">
-                        <button className='btn'>View Resume</button>
-                        <button className='btn'>View Portfolio</button>
+                        <a href='https://docs.google.com/document/d/1s6VcLwpPEn1rnLGbSvJBFMHH5lKRXPBd/edit?usp=sharing&ouid=104089593542692863323&rtpof=true&sd=true' target='blank'><button className='btn'>View Resume</button></a>
+                        <a href=''><button className='btn'>View Portfolio</button></a>
                     </div>
                 </div>
             </div>
@@ -28,4 +28,4 @@ const ShowCase = () => {
     )
 }
 
-export default ShowCase
+export default Hero;
