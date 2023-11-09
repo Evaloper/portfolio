@@ -120,6 +120,12 @@
     width: 100%;
     padding: 20px;
     align-items: center;
+    position: fixed;
+    overflow: hidden;
+    z-index: 4;
+    background-color: inherit;
+    box-shadow: 0 1px 5px #0000001a;
+    backdrop-filter: blur(8px);
   }
 }
 
