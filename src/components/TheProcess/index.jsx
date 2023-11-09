@@ -4,7 +4,7 @@ import './index.scss'
 const TheProcess = () => {
     return (
         <div className='process-div'>
-            <h2>Creative Process</h2>
+            <h3>My Creative Process</h3>
             <div className='ds-div'>
                 <div className='discover ds'>
                     <h3 className='header-3'>Discover</h3>

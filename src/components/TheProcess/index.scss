@@ -3,11 +3,16 @@
   padding: 0 50px;
 
   @media screen and (max-width: 1250px) {
-    padding: 120px 50px;
+    padding: 120px 50px 50px 50px;
   }
 
   @media screen and (max-width: 800px) {
-    padding: 200px 50px;
+    padding: 200px 50px 50px 50px;
+  }
+
+  h3 {
+    color: #afeaf4c6;
+    font-size: 22px;
   }
 }
 

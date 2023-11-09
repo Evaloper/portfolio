@@ -19,11 +19,31 @@ body {
 }
 
 h2 {
+  padding: 28px 0;
   font-size: 38px;
   color: #afeaf4c6;
   opacity: 1;
+  line-height: 20px;
+}
 
-  @media screen and (max-width: 800px) {
+h2 .span {
+  padding-right: 20px;
+  color: grey;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 800px) {
+  h2 {
     font-size: 30px;
+  }
+
+  h2 .span {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  h2 {
+    font-size: 28px;
   }
 }

@@ -1,0 +1,39 @@
+.contact-div {
+  padding: 0 50px;
+  color: #f6f6f6;
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+
+  @media screen and (max-width: 1024px) {
+    width: 70%;
+    margin: 50px auto;
+    line-height: 28px;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+
+  div {
+    margin-bottom: 50px;
+  }
+}
+
+.sub-heading {
+  font-size: 14px;
+  color: gray;
+}
+.email-link {
+  color: gray;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 10px 30px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.email-link:hover {
+  color: orange;
+}
