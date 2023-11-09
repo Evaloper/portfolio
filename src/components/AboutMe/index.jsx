@@ -9,11 +9,11 @@ const AboutMe = () => {
             <div className='aboutme-details'>
                 <div className='aboutme-para'>
                     <p>
-                        My name is Oghenefejiro Evarista Gbaje. I am a Software Engineer from Souhern part of Nigeria, Warri to be precise. I've worked using
-                        different technologies, both backend and frontend. I'm currently working using Spring Boot
-                        et JavaScript. My goal is to build highly performant applications that solve real-world problems
+                        My name is Oghenefejiro Evarista Gbaje. I am a Software Engineer from Southern part of Nigeria, Warri to be precise.
+                        I've worked using different technologies, both backend and frontend.
+                        My goal is to build highly performant applications that solve real-world problems
                         and provide users with an awesome experience. You can read more about me on my LinkedIn page,
-                        or Check my Github for some cool things.Here are a few technologies I’ve been working with recently:
+                        or Check my Github for some projects I have done. Here are a few technologies I’ve been working with recently:
                     </p>
                 </div>
                 <div className='aboutme-img'>
