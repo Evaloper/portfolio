@@ -10,6 +10,10 @@
     padding: 200px 50px 50px 50px;
   }
 
+  @media screen and (max-width: 425px) {
+    padding: 150px 50px 50px 50px;
+  }
+
   h3 {
     color: #afeaf4c6;
     font-size: 22px;
