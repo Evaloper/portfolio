@@ -6,16 +6,28 @@
   }
 }
 
+h2 {
+  padding: 20px 0;
+}
+
 h2 .span {
   padding-right: 20px;
   color: grey;
   font-size: 38px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 30px;
+  }
 }
 
 h2 {
   font-size: 38px;
-  color: #f6f6f6;
+  color: #ccd6f6;
   opacity: 1;
+
+  @media screen and (max-width: 800px) {
+    font-size: 30px;
+  }
 }
 .aboutme-details {
   display: flex;
@@ -48,6 +60,7 @@ h2 {
 
   @media screen and (max-width: 800px) {
     margin: auto;
+    width: 80%;
   }
 }
 
@@ -62,6 +75,14 @@ h2 {
   position: absolute;
   left: 60px;
   top: 60px;
+
+  @media screen and (max-width: 800px) {
+    left: 40px;
+  }
+
+  @media screen and (max-width: 520px) {
+    left: 70px;
+  }
 }
 
 .wrapper {
