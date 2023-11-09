@@ -17,3 +17,13 @@ body {
   margin: 0;
   padding: 0;
 }
+
+h2 {
+  font-size: 38px;
+  color: #afeaf4c6;
+  opacity: 1;
+
+  @media screen and (max-width: 800px) {
+    font-size: 30px;
+  }
+}
