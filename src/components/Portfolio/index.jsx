@@ -11,6 +11,7 @@ import './index.scss'
 const Portfolio = () => {
     return (
         <div className='portfolio'>
+            <h2><span className='span'>02.</span>My Portfolio</h2>
             <div className='portfolio-div'>
                 {/* MovieBox Start */}
                 <a href="https://silly-pavlova-a8278d.netlify.app/"><div className="folio-card">

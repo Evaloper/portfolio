@@ -4,7 +4,7 @@ import './index.scss'
 const Contact = () => {
     return (
         <div className='contact-div'>
-            <h2><span className='span'>03.</span>Contact<br /> <span className='sub-heading'>Get in Touch</span></h2>
+            <h2><span className='span'>03.</span>Contact</h2>
             <div>
                 <p>
                     Feel free to contact me for business, collaboration,
