@@ -5,7 +5,7 @@ import './index.scss'
 const Footer = () => {
     return (
         <div class="footer">
-            <p>© 2022 Evaloper</p>
+            <p>© 2023 Oghenefejiro Gbaje</p>
             <div class="footer-icons">
                 <a href="#" className='icons fa-faceobok'><FaFacebookF /></a>
                 <a href="#" class="icons fa-instagram"><FaInstagram /></a>
