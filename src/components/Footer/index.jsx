@@ -4,13 +4,13 @@ import './index.scss'
 
 const Footer = () => {
     return (
-        <div class="footer">
+        <div className="footer">
             <p>© 2023 Oghenefejiro Gbaje</p>
-            <div class="footer-icons">
-                <a href="#" className='icons fa-faceobok'><FaFacebookF /></a>
-                <a href="#" class="icons fa-instagram"><FaInstagram /></a>
-                <a href="#" class="icons fa-linkedin"><FaLinkedinIn /></a>
-                <a href="#" class="icons fa-behance"><FaBehance /></a>
+            <div className="footer-icons">
+                <a href="https://facebook.com/gbajeeva" target='blank' className='icons fa-faceobok'><FaFacebookF /></a>
+                <a href="https://instagram.com/mz_evaaa" target='blank' className="icons fa-instagram"><FaInstagram /></a>
+                <a href="https://ng.linkedin.com/in/oghenefejirogbaje?trk=public_profile_browsemap" target='blank' className="icons fa-linkedin"><FaLinkedinIn /></a>
+                <a href="#" className="icons fa-behance"><FaBehance /></a>
             </div>
         </div>
     )
