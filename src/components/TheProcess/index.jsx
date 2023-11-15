@@ -8,16 +8,20 @@ const TheProcess = () => {
             <div className='ds-div'>
                 <div className='discover ds'>
                     <h3 className='header-3'>Discover</h3>
-                    <p>Conducted competitor analysis to understand the current landscape and identify potential opportunities for differentiation.</p>
+                    <p>Conducted competitor analysis to grasp the existing landscape and pinpoint potential avenues for standing out and setting apart.</p>
                 </div>
                 <div className='define ds'>
                     <h3 className='header-3'>Define</h3>
-                    <p>Defined the project's objectives, goals.
-                        Identified the specific user needs the portfolio website should address.</p>
+                    <p>
+                        Outlined the project's aims and objectives while identifying the precise user requirements the website should meet.
+                    </p>
                 </div>
                 <div className='Design ds'>
                     <h3 className='header-3'>Design</h3>
-                    <p>Brainstormed and generated multiple design concepts and ideas, considering different layouts, color schemes,, typography, and overall visual styles. Collaborated with the client to refine and select the most suitable concepts</p>
+                    <p>
+                        Collaborated extensively to generate diverse design concepts, exploring various layouts, color schemes,
+                        typography, and visual styles. Worked closely with the client to refine and choose the most fitting ideas.
+                    </p>
                 </div>
                 <div className='Develop ds'>
                     <h3 className='header-3'>Develop</h3>

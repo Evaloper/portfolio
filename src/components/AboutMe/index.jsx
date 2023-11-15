@@ -10,6 +10,7 @@ import GitHub from '../../assets/github-color-svgrepo-com.svg'
 import SassIcon from '../../assets/brand-sass-svgrepo-com.svg'
 import Astro from '../../assets/astro-svgrepo-com.svg'
 import './index.scss'
+import TheProcess from '../TheProcess'
 
 const AboutMe = () => {
     return (
@@ -69,6 +70,7 @@ const AboutMe = () => {
                     </div>
                 </div>
             </div>
+            <TheProcess />
         </div>
     )
 }
