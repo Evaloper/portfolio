@@ -3,7 +3,7 @@ import './index.scss'
 
 const Contact = () => {
     return (
-        <div className='contact-div'>
+        <div className='contact-div' id='contact'>
             <h2><span className='span'>03.</span>Contact</h2>
             <div>
                 <p>

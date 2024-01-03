@@ -10,7 +10,7 @@ import './index.scss'
 
 const Portfolio = () => {
     return (
-        <div className='portfolio'>
+        <div className='portfolio' id='portfolio'>
             <h2><span className='span'>02.</span>My Portfolio</h2>
             <div className='portfolio-div'>
                 {/* MovieBox Start */}

@@ -15,9 +15,9 @@ const Header = () => {
             <div className='desktop-view'>
                 <div className='logo-div'><a href="/">&lt;Oghenefejiro /&gt;</a></div>
                 <nav>
-                    <a href="/about"><span className="span">01.</span> About</a>
-                    <a href="/services "><span className="span">02.</span> Portfolio</a>
-                    <a href="/contact "><span className="span">03.</span> Contact</a>
+                    <a href="#about"><span className="span">01.</span> About</a>
+                    <a href="#portfolio "><span className="span">02.</span> Portfolio</a>
+                    <a href="#contact "><span className="span">03.</span> Contact</a>
                     <a href="https://docs.google.com/document/d/1s6VcLwpPEn1rnLGbSvJBFMHH5lKRXPBd/edit?usp=sharing&ouid=104089593542692863323&rtpof=true&sd=true" target='blank'><button className='btn'>Resume</button></a>
                 </nav>
                 <div className="icons-div">

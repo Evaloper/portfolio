@@ -15,7 +15,7 @@ import TheProcess from '../TheProcess'
 const AboutMe = () => {
     return (
         <>
-            <div className='aboutme'>
+            <div className='aboutme' id='about'>
                 <h2> <span className='span'>01.</span>About Me</h2>
                 <div className='aboutme-details'>
                     <div className='aboutme-para'>
