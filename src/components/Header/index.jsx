@@ -50,15 +50,16 @@ const Header = () => {
                         </a>
                     </div>
                     <div className="overlay-content">
-                        <a className="nav" href='/'>
+                        <a className="nav" href='#about'>
                             About
                         </a>
-                        <a href='/' className="nav">
+                        <a href='#portfolio' className="nav">
                             Portfolio
                         </a>
-                        <a href='/' className="nav">
+                        <a href='#contact' className="nav">
                             Contact
                         </a>
+                        <a href="https://docs.google.com/document/d/1s6VcLwpPEn1rnLGbSvJBFMHH5lKRXPBd/edit?usp=sharing&ouid=104089593542692863323&rtpof=true&sd=true" target='blank'><button className='btn-mbl'>Resume</button></a>
                     </div>
                 </div>
             )}
