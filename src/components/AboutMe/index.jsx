@@ -13,6 +13,7 @@ import Cypress from '../../assets/cypress-svgrepo-com.svg'
 import Docker from '../../assets/docker-svgrepo-com.svg'
 import Grafana from '../../assets/grafana-svgrepo-com.svg'
 import Spring from '../../assets/spring-icon-svgrepo-com.svg'
+import Swagger from '../../assets/swagger-svgrepo-com.svg'
 import MySQL from '../../assets/mysql-svgrepo-com.svg'
 import PostgreSQL from '../../assets/postgresql-svgrepo-com.svg'
 import TheProcess from '../TheProcess'
@@ -43,15 +44,15 @@ const AboutMe = () => {
                             </div>
                             <div className='tech-div'>
                                 <img src={GitHub} alt="React Icon" className='tech-icon' />
-                                <p>GitHub</p>
+                                <p>Git/GitHub</p>
                             </div>
                             <div className='tech-div'>
                                 <img src={Tailwind} alt="React Icon" className='tech-icon' />
                                 <p>Tailwind</p>
                             </div>
                             <div className='tech-div'>
-                                <img src={Git} alt="React Icon" className='tech-icon' />
-                                <p>Git</p>
+                                <img src={Swagger} alt="React Icon" className='tech-icon' />
+                                <p>Swagger</p>
                             </div>
                             <div className='tech-div'>
                                 <img src={SassIcon} alt="React Icon" className='tech-icon' />
