@@ -36,10 +36,6 @@ const AboutMe = () => {
                                 <img src={ReactIcon} alt="React Icon" className='tech-icon' />
                                 <p>Reactjs</p>
                             </div>
-                            {/* <div className='tech-div'>
-                                <img src={HTMLIcon} alt="React Icon" className='tech-icon' />
-                                <p>HTML 5</p>
-                            </div> */}
                             <div className='tech-div'>
                                 <img src={JSIcon} alt="React Icon" className='tech-icon' />
                                 <p>Vanilla JS</p>
@@ -48,10 +44,6 @@ const AboutMe = () => {
                                 <img src={GitHub} alt="React Icon" className='tech-icon' />
                                 <p>GitHub</p>
                             </div>
-                            {/* <div className='tech-div'>
-                                <img src={CSSIcon} alt="React Icon" className='tech-icon' />
-                                <p>CSS 3</p>
-                            </div> */}
                             <div className='tech-div'>
                                 <img src={Tailwind} alt="React Icon" className='tech-icon' />
                                 <p>Tailwind</p>
@@ -98,7 +90,7 @@ const AboutMe = () => {
                             </div>
                             <div className='tech-div'>
                                 <img src={Spring} alt="React Icon" className='tech-icon' />
-                                <p>Jira</p>
+                                <p>Spring Framework</p>
                             </div>
                         </div>
                     </div>
