@@ -2,9 +2,9 @@ import React from 'react'
 import AboutImage from '../../assets/Aboutme.jpg'
 import JSIcon from '../../assets/js-svgrepo-com.svg'
 import ReactIcon from '../../assets/react-svgrepo-com.svg'
-import HTMLIcon from '../../assets/html-5-svgrepo-com.svg'
+// import HTMLIcon from '../../assets/html-5-svgrepo-com.svg'
 import Tailwind from '../../assets/tailwind-svgrepo-com.svg'
-import CSSIcon from '../../assets/css-3-svgrepo-com.svg'
+// import CSSIcon from '../../assets/css-3-svgrepo-com.svg'
 import Git from '../../assets/git-svgrepo-com.svg'
 import GitHub from '../../assets/github-color-svgrepo-com.svg'
 import SassIcon from '../../assets/brand-sass-svgrepo-com.svg'
@@ -40,10 +40,10 @@ const AboutMe = () => {
                                 <img src={ReactIcon} alt="React Icon" className='tech-icon' />
                                 <p>Reactjs</p>
                             </div>
-                            <div className='tech-div'>
+                            {/* <div className='tech-div'>
                                 <img src={HTMLIcon} alt="React Icon" className='tech-icon' />
                                 <p>HTML 5</p>
-                            </div>
+                            </div> */}
                             <div className='tech-div'>
                                 <img src={JSIcon} alt="React Icon" className='tech-icon' />
                                 <p>Vanilla JS</p>
@@ -52,10 +52,10 @@ const AboutMe = () => {
                                 <img src={GitHub} alt="React Icon" className='tech-icon' />
                                 <p>GitHub</p>
                             </div>
-                            <div className='tech-div'>
+                            {/* <div className='tech-div'>
                                 <img src={CSSIcon} alt="React Icon" className='tech-icon' />
                                 <p>CSS 3</p>
-                            </div>
+                            </div> */}
                             <div className='tech-div'>
                                 <img src={Tailwind} alt="React Icon" className='tech-icon' />
                                 <p>Tailwind</p>
