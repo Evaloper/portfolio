@@ -26,11 +26,21 @@ const AboutMe = () => {
                 <div className='aboutme-details'>
                     <div className='aboutme-para'>
                         <p>
-                            My name is Oghenefejiro Evarista Gbaje. I am a Frontend Developer from Southern part of Nigeria, Warri to be precise.
-                            I've worked using different frontend technologies, I am quite conservant with few backend terminologies,
-                            also included some in my projects. My goal is to build highly performant applications that solve real-world problems
-                            and provide users with an awesome experience. You can read more about me on my LinkedIn page,
-                            or Check my Github for some projects I have done. Here are a few technologies I’ve been working with recently:
+                            I'm Oghenefejiro Evarista Gbaje, a Java and JavaScript Developer with a BSc in Criminology and Security Studies. I am on the lookout for exciting opportunities, but before then join me as I take you on a journey through my passion for software development and beyond.
+                            <br />
+                            <br />
+                            In my career, I've gained extensive experience in software engineering and IT consultancy. Currently, I'm a Software Engineer at Decagon in Lagos, Nigeria, where I design, develop, and maintain Java-based applications, ensuring seamless integration of frontend and backend components.
+                            <br />
+                            <br />
+                            My approach to development is deeply rooted in the Agile mindset.I excel in my role not only through proficient code but also by deeply understanding the problem at hand and crafting enduring solutions. My attention to detail and commitment to writing clean, maintainable code ensure that my projects consistently meet high standards.
+                            <br />
+                            <br />
+                            With a Bachelor's degree in Criminology and Security Studies, you might wonder how I found my way into the world of software engineering. Well, let me tell you—it's all about problem-solving, pattern recognition, and understanding human behavior. Combining this with my expertise in Software engineering, I offer a unique blend of technical skills, soft skills, critical thinking, problem-solving abilities, and an Agile mindset. This diverse skill set enables me to tackle coding challenges from various perspectives.
+                            <br />
+                            <br />
+                            I'm eager to contribute positively and collaborate with visionary leaders and innovative technologists across various fields. You can explore my professional journey on LinkedIn or delve into some of my projects on GitHub. Here's a snapshot of the technologies I specialize in:
+
+
                         </p>
                         <div className='tech-icon-div'>
                             <div className='tech-div'>
