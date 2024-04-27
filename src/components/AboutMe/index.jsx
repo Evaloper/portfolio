@@ -96,15 +96,15 @@ const AboutMe = () => {
                                 <img src={Jira} alt="React Icon" className='tech-icon' />
                                 <p>Jira</p>
                             </div>
-                            {/*<div className='tech-div'>
+                            {/* <div className='tech-div'>
                                 <img src={Mongodb} alt="React Icon" className='tech-icon' />
                                 <p>MongoDB</p>
-                            </div>
-                            <div className='tech-div'>
+                            </div> */}
+                            {/* <div className='tech-div'>
                                 <img src={MySQL} alt="React Icon" className='tech-icon' />
                                 <p>MySQL</p>
-                            </div>
-                            <div className='tech-div'>
+                            </div> */}
+                            {/* <div className='tech-div'>
                                 <img src={PostgreSQL} alt="React Icon" className='tech-icon' />
                                 <p>PostgreSQL</p>
                             </div> */}
