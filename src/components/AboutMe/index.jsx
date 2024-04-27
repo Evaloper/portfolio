@@ -22,7 +22,6 @@ import MySQL from '../../assets/mysql-svgrepo-com.svg'
 import PostgreSQL from '../../assets/postgresql-svgrepo-com.svg'
 
 import './index.scss'
-import { AboutImage, JSIcon, ReactIcon, HTMLIcon } from "./index"
 import TheProcess from '../TheProcess'
 
 const AboutMe = () => {
