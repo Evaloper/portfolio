@@ -26,20 +26,20 @@ const AboutMe = () => {
                 <div className='aboutme-details'>
                     <div className='aboutme-para'>
                         <p>
-                            I'm Oghenefejiro Evarista Gbaje, a Java and JavaScript Developer with a BSc in Criminology and Security Studies. 
-                            I am on the lookout for exciting opportunities, but before then join me as I take you on a journey through my passion 
+                            I'm Oghenefejiro Evarista Gbaje, a Java and JavaScript Developer with a BSc in Criminology and Security Studies.
+                            I am on the lookout for exciting opportunities, but before then join me as I take you on a journey through my passion
                             for software development and beyond.
                             <br />
                             <br />
-                            With a Bachelor's degree in Criminology and Security Studies, 
-                            you might wonder how I found my way into the world of software engineering. 
-                            Well, let me tell you—it's all about problem-solving, pattern recognition, 
-                            and understanding human behavior. Combining this with my expertise in Software engineering, 
+                            With a Bachelor's degree in Criminology and Security Studies,
+                            you might wonder how I found my way into the world of software engineering.
+                            Well, let me tell you—it's all about problem-solving, pattern recognition,
+                            and understanding human behavior. Combining this with my expertise in Software engineering,
                             I offer a unique blend of technical skills, soft skills, critical thinking, problem-solving abilities, and an Agile mindset. This diverse skill set enables me to tackle coding challenges from various perspectives.
                             <br />
                             <br />
-                            I'm eager to contribute positively and collaborate with visionary leaders and 
-                            innovative technologists across various fields. You can explore my professional journey on 
+                            I'm eager to contribute positively and collaborate with visionary leaders and
+                            innovative technologists across various fields. You can explore my professional journey on
                             LinkedIn or delve into some of my projects on GitHub. Here's a snapshot of the technologies I specialize in:
 
 
