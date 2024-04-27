@@ -3,7 +3,6 @@ import AboutImage from '../../assets/Aboutme.jpg'
 import JSIcon from '../../assets/js-svgrepo-com.svg'
 import ReactIcon from '../../assets/react-svgrepo-com.svg'
 import Tailwind from '../../assets/tailwind-svgrepo-com.svg'
-import Git from '../../assets/git-svgrepo-com.svg'
 import GitHub from '../../assets/github-color-svgrepo-com.svg'
 import SassIcon from '../../assets/brand-sass-svgrepo-com.svg'
 import Astro from '../../assets/astro-svgrepo-com.svg'
@@ -12,8 +11,7 @@ import CircleCi from '../../assets/circleci-svgrepo-com.svg'
 import Cypress from '../../assets/cypress-svgrepo-com.svg'
 import Docker from '../../assets/docker-svgrepo-com.svg'
 import Grafana from '../../assets/grafana-svgrepo-com.svg'
-import Spring from '../../assets/spring-icon-svgrepo-com.svg'
-import Swagger from '../../assets/swagger-svgrepo-com.svg'
+import Swagger from '../../assets/postman-icon-svgrepo-com.svg'
 import MySQL from '../../assets/mysql-svgrepo-com.svg'
 import PostgreSQL from '../../assets/postgresql-svgrepo-com.svg'
 import TheProcess from '../TheProcess'
@@ -35,6 +33,14 @@ const AboutMe = () => {
                         </p>
                         <div className='tech-icon-div'>
                             <div className='tech-div'>
+                                <img src={Java} alt="React Icon" className='tech-icon' />
+                                <p>Java</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={ReactIcon} alt="React Icon" className='tech-icon' />
+                                <p>Reactjs</p>
+                            </div>
+                            <div className='tech-div'>
                                 <img src={ReactIcon} alt="React Icon" className='tech-icon' />
                                 <p>Reactjs</p>
                             </div>
@@ -51,10 +57,6 @@ const AboutMe = () => {
                                 <p>Tailwind</p>
                             </div>
                             <div className='tech-div'>
-                                <img src={Swagger} alt="React Icon" className='tech-icon' />
-                                <p>Swagger</p>
-                            </div>
-                            <div className='tech-div'>
                                 <img src={SassIcon} alt="React Icon" className='tech-icon' />
                                 <p>SASS</p>
                             </div>
@@ -63,12 +65,16 @@ const AboutMe = () => {
                                 <p>Astro</p>
                             </div>
                             <div className='tech-div'>
-                                <img src={Java} alt="React Icon" className='tech-icon' />
-                                <p>Java</p>
-                            </div>
-                            <div className='tech-div'>
                                 <img src={CircleCi} alt="React Icon" className='tech-icon' />
                                 <p>CircleCI</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={Swagger} alt="React Icon" className='tech-icon' />
+                                <p>Swagger</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={PostMan} alt="React Icon" className='tech-icon' />
+                                <p>Postman</p>
                             </div>
                             <div className='tech-div'>
                                 <img src={Cypress} alt="React Icon" className='tech-icon' />
@@ -89,10 +95,6 @@ const AboutMe = () => {
                             <div className='tech-div'>
                                 <img src={PostgreSQL} alt="React Icon" className='tech-icon' />
                                 <p>PostgreSQL</p>
-                            </div>
-                            <div className='tech-div'>
-                                <img src={Spring} alt="React Icon" className='tech-icon' />
-                                <p>Spring Framework</p>
                             </div>
                         </div>
                     </div>
