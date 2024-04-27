@@ -42,10 +42,6 @@ const AboutMe = () => {
                                 <p>Reactjs</p>
                             </div>
                             <div className='tech-div'>
-                                <img src={ReactIcon} alt="React Icon" className='tech-icon' />
-                                <p>Reactjs</p>
-                            </div>
-                            <div className='tech-div'>
                                 <img src={JSIcon} alt="React Icon" className='tech-icon' />
                                 <p>Vanilla JS</p>
                             </div>
