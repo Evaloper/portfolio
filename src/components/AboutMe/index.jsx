@@ -15,10 +15,14 @@ import Cypress from '../../assets/cypress-svgrepo-com.svg'
 import Docker from '../../assets/docker-svgrepo-com.svg'
 import Grafana from '../../assets/grafana-svgrepo-com.svg'
 import Jira from '../../assets/Jira-svgrepo-com.svg'
-// import Mongodb from '../../assets/mongodb-svgrepo-com.svg'
-// import MySQL from '../../assets/mysql-svgrepo-com.svg'
-// import PostgreSQL from '../../assets/postgresql-svgrepo-com.svg'
+import Spring from '../../assets/spring-icon-svgrepo-com.svg'
+import Swagger from '../../assets/swagger-svgrepo-com.svg'
+import Mongodb from '../../assets/mongodb-svgrepo-com.svg'
+import MySQL from '../../assets/mysql-svgrepo-com.svg'
+import PostgreSQL from '../../assets/postgresql-svgrepo-com.svg'
+
 import './index.scss'
+import { AboutImage, JSIcon, ReactIcon, HTMLIcon } from "./index"
 import TheProcess from '../TheProcess'
 
 const AboutMe = () => {
@@ -91,6 +95,14 @@ const AboutMe = () => {
                             <div className='tech-div'>
                                 <img src={Grafana} alt="React Icon" className='tech-icon' />
                                 <p>Grafana</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={Spring} alt="React Icon" className='tech-icon' />
+                                <p>Spring</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={Swagger} alt="React Icon" className='tech-icon' />
+                                <p>Swagger</p>
                             </div>
                             <div className='tech-div'>
                                 <img src={Jira} alt="React Icon" className='tech-icon' />
