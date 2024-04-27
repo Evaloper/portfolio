@@ -27,8 +27,7 @@ const AboutMe = () => {
                     <div className='aboutme-para'>
                         <p>
                             I'm Oghenefejiro Evarista Gbaje, a Java and JavaScript Developer with a BSc in Criminology and Security Studies.
-                            I am on the lookout for exciting opportunities, but before then join me as I take you on a journey through my passion
-                            for software development and beyond.
+                            I am on the lookout for exciting opportunities.
                             <br />
                             <br />
                             With a Bachelor's degree in Criminology and Security Studies,
