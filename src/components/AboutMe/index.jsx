@@ -5,10 +5,10 @@ import ReactIcon from '../../assets/react-svgrepo-com.svg'
 // import HTMLIcon from '../../assets/html-5-svgrepo-com.svg'
 import Tailwind from '../../assets/tailwind-svgrepo-com.svg'
 // import CSSIcon from '../../assets/css-3-svgrepo-com.svg'
-import Git from '../../assets/git-svgrepo-com.svg'
+// import Git from '../../assets/git-svgrepo-com.svg'
 import GitHub from '../../assets/github-color-svgrepo-com.svg'
 import SassIcon from '../../assets/brand-sass-svgrepo-com.svg'
-import Astro from '../../assets/astro-svgrepo-com.svg'
+// import Astro from '../../assets/astro-svgrepo-com.svg'
 import Java from '../../assets/java-logo-svgrepo-com.svg'
 import CircleCi from '../../assets/circleci-svgrepo-com.svg'
 import Cypress from '../../assets/cypress-svgrepo-com.svg'
@@ -63,18 +63,18 @@ const AboutMe = () => {
                                 <img src={Tailwind} alt="React Icon" className='tech-icon' />
                                 <p>Tailwind</p>
                             </div>
-                            <div className='tech-div'>
+                            {/* <div className='tech-div'>
                                 <img src={Git} alt="React Icon" className='tech-icon' />
                                 <p>Git</p>
-                            </div>
+                            </div> */}
                             <div className='tech-div'>
                                 <img src={SassIcon} alt="React Icon" className='tech-icon' />
                                 <p>SASS</p>
                             </div>
-                            <div className='tech-div'>
+                            {/* <div className='tech-div'>
                                 <img src={Astro} alt="React Icon" className='tech-icon' />
                                 <p>Astro</p>
-                            </div>
+                            </div> */}
                             <div className='tech-div'>
                                 <img src={Java} alt="React Icon" className='tech-icon' />
                                 <p>Java</p>
