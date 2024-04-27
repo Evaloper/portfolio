@@ -9,6 +9,15 @@ import Git from '../../assets/git-svgrepo-com.svg'
 import GitHub from '../../assets/github-color-svgrepo-com.svg'
 import SassIcon from '../../assets/brand-sass-svgrepo-com.svg'
 import Astro from '../../assets/astro-svgrepo-com.svg'
+import Java from '../../assets/java-logo-svgrepo-com.svg'
+import CircleCi from '../../assets/circleci-svgrepo-com.svg'
+import Cypress from '../../assets/cypress-svgrepo-com.svg'
+import Docker from '../../assets/docker-svgrepo-com.svg'
+import Grafana from '../../assets/grafana-svgrepo-com.svg'
+import Jira from '../../assets/Jira-svgrepo-com.svg'
+import Mongodb from '../../assets/mongodb-svgrepo-com.svg'
+import MySQL from '../../assets/mysql-svgrepo-com.svg'
+import PostgreSQL from '../../assets/postgresql-svgrepo-com.svg'
 import './index.scss'
 import TheProcess from '../TheProcess'
 
@@ -62,6 +71,42 @@ const AboutMe = () => {
                             <div className='tech-div'>
                                 <img src={Astro} alt="React Icon" className='tech-icon' />
                                 <p>Astro</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={Java} alt="React Icon" className='tech-icon' />
+                                <p>Java</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={CircleCi} alt="React Icon" className='tech-icon' />
+                                <p>CircleCI</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={Cypress} alt="React Icon" className='tech-icon' />
+                                <p>Cypress</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={Docker} alt="React Icon" className='tech-icon' />
+                                <p>Docker</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={Grafana} alt="React Icon" className='tech-icon' />
+                                <p>Grafana</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={Jira} alt="React Icon" className='tech-icon' />
+                                <p>Jira</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={Mongodb} alt="React Icon" className='tech-icon' />
+                                <p>MongoDB</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={MySQL} alt="React Icon" className='tech-icon' />
+                                <p>MySQL</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={PostgreSQL} alt="React Icon" className='tech-icon' />
+                                <p>PostgreSQL</p>
                             </div>
                         </div>
                     </div>
