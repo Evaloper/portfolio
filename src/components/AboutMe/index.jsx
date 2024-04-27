@@ -10,7 +10,7 @@ import GitHub from '../../assets/github-color-svgrepo-com.svg'
 import SassIcon from '../../assets/brand-sass-svgrepo-com.svg'
 import Astro from '../../assets/astro-svgrepo-com.svg'
 import Java from '../../assets/java-logo-svgrepo-com.svg'
-// import CircleCi from '../../assets/circleci-svgrepo-com.svg'
+import CircleCi from '../../assets/circleci-svgrepo-com.svg'
 // import Cypress from '../../assets/cypress-svgrepo-com.svg'
 // import Docker from '../../assets/docker-svgrepo-com.svg'
 // import Grafana from '../../assets/grafana-svgrepo-com.svg'
@@ -76,11 +76,11 @@ const AboutMe = () => {
                                 <img src={Java} alt="React Icon" className='tech-icon' />
                                 <p>Java</p>
                             </div>
-                            {/* <div className='tech-div'>
+                            <div className='tech-div'>
                                 <img src={CircleCi} alt="React Icon" className='tech-icon' />
                                 <p>CircleCI</p>
                             </div>
-                            <div className='tech-div'>
+                            {/* <div className='tech-div'>
                                 <img src={Cypress} alt="React Icon" className='tech-icon' />
                                 <p>Cypress</p>
                             </div>
