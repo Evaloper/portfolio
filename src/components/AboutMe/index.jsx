@@ -16,6 +16,7 @@ import Spring from '../../assets/spring-icon-svgrepo-com.svg'
 import MySQL from '../../assets/mysql-svgrepo-com.svg'
 import PostgreSQL from '../../assets/postgresql-svgrepo-com.svg'
 import TheProcess from '../TheProcess'
+import './index.scss'
 
 const AboutMe = () => {
     return (
