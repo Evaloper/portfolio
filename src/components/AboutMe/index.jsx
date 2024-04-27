@@ -2,9 +2,7 @@ import React from 'react'
 import AboutImage from '../../assets/Aboutme.jpg'
 import JSIcon from '../../assets/js-svgrepo-com.svg'
 import ReactIcon from '../../assets/react-svgrepo-com.svg'
-// import HTMLIcon from '../../assets/html-5-svgrepo-com.svg'
 import Tailwind from '../../assets/tailwind-svgrepo-com.svg'
-// import CSSIcon from '../../assets/css-3-svgrepo-com.svg'
 import Git from '../../assets/git-svgrepo-com.svg'
 import GitHub from '../../assets/github-color-svgrepo-com.svg'
 import SassIcon from '../../assets/brand-sass-svgrepo-com.svg'
@@ -14,11 +12,9 @@ import CircleCi from '../../assets/circleci-svgrepo-com.svg'
 import Cypress from '../../assets/cypress-svgrepo-com.svg'
 import Docker from '../../assets/docker-svgrepo-com.svg'
 import Grafana from '../../assets/grafana-svgrepo-com.svg'
-// import Jira from '../../assets/Jira-svgrepo-com.svg'
-// import Mongodb from '../../assets/mongodb-svgrepo-com.svg'
+import Spring from '../../assets/spring-icon-svgrepo-com.svg'
 import MySQL from '../../assets/mysql-svgrepo-com.svg'
 import PostgreSQL from '../../assets/postgresql-svgrepo-com.svg'
-import './index.scss'
 import TheProcess from '../TheProcess'
 
 const AboutMe = () => {
@@ -100,15 +96,10 @@ const AboutMe = () => {
                                 <img src={PostgreSQL} alt="React Icon" className='tech-icon' />
                                 <p>PostgreSQL</p>
                             </div>
-                            {/* <div className='tech-div'>
-                                <img src={Jira} alt="React Icon" className='tech-icon' />
+                            <div className='tech-div'>
+                                <img src={Spring} alt="React Icon" className='tech-icon' />
                                 <p>Jira</p>
                             </div>
-                            <div className='tech-div'>
-                                <img src={Mongodb} alt="React Icon" className='tech-icon' />
-                                <p>MongoDB</p>
-                            </div>
-                             */}
                         </div>
                     </div>
                     <div className='aboutme-img'>
