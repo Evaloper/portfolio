@@ -13,7 +13,7 @@ import Java from '../../assets/java-logo-svgrepo-com.svg'
 import CircleCi from '../../assets/circleci-svgrepo-com.svg'
 import Cypress from '../../assets/cypress-svgrepo-com.svg'
 import Docker from '../../assets/docker-svgrepo-com.svg'
-// import Grafana from '../../assets/grafana-svgrepo-com.svg'
+import Grafana from '../../assets/grafana-svgrepo-com.svg'
 // import Jira from '../../assets/Jira-svgrepo-com.svg'
 // import Mongodb from '../../assets/mongodb-svgrepo-com.svg'
 // import MySQL from '../../assets/mysql-svgrepo-com.svg'
@@ -88,11 +88,11 @@ const AboutMe = () => {
                                 <img src={Docker} alt="React Icon" className='tech-icon' />
                                 <p>Docker</p>
                             </div>
-                            {/* <div className='tech-div'>
+                            <div className='tech-div'>
                                 <img src={Grafana} alt="React Icon" className='tech-icon' />
                                 <p>Grafana</p>
                             </div>
-                            <div className='tech-div'>
+                            {/* <div className='tech-div'>
                                 <img src={Jira} alt="React Icon" className='tech-icon' />
                                 <p>Jira</p>
                             </div>
