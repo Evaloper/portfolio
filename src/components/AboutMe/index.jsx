@@ -16,8 +16,8 @@ import Docker from '../../assets/docker-svgrepo-com.svg'
 import Grafana from '../../assets/grafana-svgrepo-com.svg'
 // import Jira from '../../assets/Jira-svgrepo-com.svg'
 // import Mongodb from '../../assets/mongodb-svgrepo-com.svg'
-// import MySQL from '../../assets/mysql-svgrepo-com.svg'
-// import PostgreSQL from '../../assets/postgresql-svgrepo-com.svg'
+import MySQL from '../../assets/mysql-svgrepo-com.svg'
+import PostgreSQL from '../../assets/postgresql-svgrepo-com.svg'
 import './index.scss'
 import TheProcess from '../TheProcess'
 
@@ -92,6 +92,14 @@ const AboutMe = () => {
                                 <img src={Grafana} alt="React Icon" className='tech-icon' />
                                 <p>Grafana</p>
                             </div>
+                            <div className='tech-div'>
+                                <img src={MySQL} alt="React Icon" className='tech-icon' />
+                                <p>MySQL</p>
+                            </div>
+                            <div className='tech-div'>
+                                <img src={PostgreSQL} alt="React Icon" className='tech-icon' />
+                                <p>PostgreSQL</p>
+                            </div>
                             {/* <div className='tech-div'>
                                 <img src={Jira} alt="React Icon" className='tech-icon' />
                                 <p>Jira</p>
@@ -100,14 +108,7 @@ const AboutMe = () => {
                                 <img src={Mongodb} alt="React Icon" className='tech-icon' />
                                 <p>MongoDB</p>
                             </div>
-                            <div className='tech-div'>
-                                <img src={MySQL} alt="React Icon" className='tech-icon' />
-                                <p>MySQL</p>
-                            </div>
-                            <div className='tech-div'>
-                                <img src={PostgreSQL} alt="React Icon" className='tech-icon' />
-                                <p>PostgreSQL</p>
-                            </div> */}
+                             */}
                         </div>
                     </div>
                     <div className='aboutme-img'>
