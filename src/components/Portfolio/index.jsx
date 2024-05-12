@@ -6,6 +6,9 @@ import Payhelper from '../../assets/payhelper-dashboard-desktop.png'
 import ReactIcon from '../../assets/react-svgrepo-com.svg'
 import Astro from '../../assets/astro-svgrepo-com.svg'
 import JSIcon from '../../assets/js-svgrepo-com.svg'
+import Profiles from '../../assets/Profiles.png'
+import Java from '../../assets/java-logo-svgrepo-com.svg'
+import MySQL from '../../assets/mysql-svgrepo-com.svg'
 import './index.scss'
 
 const Portfolio = () => {
@@ -38,7 +41,39 @@ const Portfolio = () => {
                     </div>
                 </div></a>
 
-                {/* Astro Template start */}
+                {/* Profiles start */}
+                <a href="https://profiles.decagonhq.com/">
+                    <div className="folio-card">
+                        <div className="folio-img">
+                            <img src={Profiles} alt="" className='portfolio-img' />
+                        </div>
+                        <div className="details-div">
+                            <div className="folio-details">
+                                <h4>Profiles</h4>
+                                <p>
+                                    Profiles is a web application that involved creating secure and user-friendly
+                                    authentication pages that allow companies to access profiles of vetted tech talent.
+                                </p>
+                            </div>
+                            <div className="technologies">
+                                <h4>Technologies used: </h4>
+                                <div className='folio-icon-wrapper'>
+                                    <div className='folio-icon'>
+                                        <img src={Java} alt="React Icon" className='tech-icon' />
+                                    </div>
+                                    <div className='folio-icon'>
+                                        <img src={ReactIcon} alt="React Icon" className='tech-icon' />
+                                    </div>
+                                    <div className='folio-icon'>
+                                        <img src={MySQL} alt="React Icon" className='tech-icon' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                {/* Astro Template starts */}
                 <a href="https://incredible-narwhal-18a708.netlify.app/">
                     <div className="folio-card">
                         <div className="folio-img">
@@ -65,28 +100,8 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </a>
-
-                {/* Bani Dashboard starts */}
-                <a href="https://glowing-gnome-fd582e.netlify.app/dashboard">
-                    <div className="folio-card">
-                        <div className="folio-img">
-                            <img src={Bani} alt="Bani Dashboard" className='portfolio-img' />
-                        </div>
-                        <div className="details-div"><div className="folio-details">
-                            <h4>Bani Dashboard</h4>
-                            <p>This project is just basically to implement the design given</p>
-                        </div>
-                            <div className="technologies">
-                                <h4>Technologies used:</h4>
-                                <div className='folio-icon-wrapper'>
-                                    <div className='folio-icon'>
-                                        <img src={ReactIcon} alt="React Icon" className='tech-icon' />
-                                    </div>
-                                </div>
-                            </div></div>
-                    </div>
-                </a>
             </div>
+
         </div>
     )
 }
