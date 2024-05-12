@@ -5,7 +5,7 @@ import './index.scss'
 const Footer = () => {
     return (
         <div className="footer">
-            <p>© 2023 Oghenefejiro Gbaje</p>
+            <p>© 2024 Oghenefejiro Gbaje</p>
             <div className="footer-icons">
                 <a href="https://facebook.com/gbajeeva" target='blank' className='icons fa-faceobok'><FaFacebookF /></a>
                 <a href="https://instagram.com/mz_evaaa" target='blank' className="icons fa-instagram"><FaInstagram /></a>
